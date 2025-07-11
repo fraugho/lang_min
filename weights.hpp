@@ -14,7 +14,7 @@ enum class Lang {
     Zh,  // zh
 };
 
-std::string three_letter_code(Lang language) {
+std::string two_letter_code(Lang language) {
     switch (language) {
         case Lang::De: return "de";
         case Lang::En: return "en";
